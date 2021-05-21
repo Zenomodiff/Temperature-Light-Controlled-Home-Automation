@@ -10,7 +10,7 @@
 #define DHTPIN 4
 #define DHTTYPE DHT11
 
-int Light = 10 ;
+int Light = 11 ;
 int Fan = 12 ;
 const int ldrPin = 3;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
