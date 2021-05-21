@@ -7,12 +7,12 @@
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 #include "DHT.h"
-#define DHTPIN 7
+#define DHTPIN 4
 #define DHTTYPE DHT11
 
-int Light = 4 ;
-int Fan = 5 ;
-const int ldrPin = 6;
+int Light = 10 ;
+int Fan = 12 ;
+const int ldrPin = 3;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 DHT dht(DHTPIN, DHTTYPE);
 
